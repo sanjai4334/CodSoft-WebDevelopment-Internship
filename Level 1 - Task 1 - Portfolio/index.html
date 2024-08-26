@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sanjai's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+  <!-- Sticky Navbar -->
+  <nav class="navbar">
+    <div class="navbar-content">
+      <a href="#intro" class="nav-logo">Sanjai Somasundaram</a>
+      <ul class="nav-links">
+        <li><a href="#intro">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Header and About Section -->
+  <section id="intro" class="section intro">
+    <div class="intro-content">
+      <div class="intro-left">
+        <img src="profile.png" alt="Profile Image" class="profile-img">
+      </div>
+      <div class="intro-right">
+        <h1>Sanjai Somasundaram</h1>
+        <p>Software Engineer</p>
+        <p class="tagline">Turning ideas into elegant, efficient code</p>
+        <p>Hello! I'm Sanjai, a passionate Software Engineer specializing in creating innovative solutions and
+          applications. I love working with various technologies and continuously learning new skills.</p>
+
+        <div class="social-links">
+          <a href="https://linkedin.com/in/sanjai4334" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/sanjai4334" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+
+        <a href="#contact" class="cta-button">Get in Touch</a>
+        <a href="Resume.pdf" class="resume-link" download>Download Resume</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <div class="section-content">
+      <h2>Skills</h2>
+      <div class="skills-container">
+        <div class="skills-column">
+          <div class="skill-item">
+            <i class="fab fa-python"></i>
+            <span>Python</span>
+          </div>
+          <div class="skill-item">
+            <i class="fab fa-java"></i>
+            <span>Java</span>
+          </div>
+          <div class="skill-item">
+            <i class="fas fa-code"></i>
+            <span>C</span>
+          </div>
+          <div class="skill-item">
+            <i class="fab fa-js"></i>
+            <span>JavaScript</span>
+          </div>
+        </div>
+        <div class="skills-column">
+          <div class="skill-item">
+            <i class="fab fa-html5"></i>
+            <span>HTML</span>
+          </div>
+          <div class="skill-item">
+            <i class="fab fa-css3-alt"></i>
+            <span>CSS</span>
+          </div>
+          <div class="skill-item">
+            <i class="fab fa-react"></i>
+            <span>React</span>
+          </div>
+          <div class="skill-item">
+            <i class="fab fa-node-js"></i>
+            <span>Node.js</span>
+          </div>
+        </div>
+        <div class="skills-column">
+          <div class="skill-item">
+            <i class="fas fa-server"></i>
+            <span>Express</span>
+          </div>
+          <div class="skill-item">
+            <i class="fas fa-database"></i>
+            <span>MongoDB</span>
+          </div>
+          <div class="skill-item">
+            <i class="fas fa-database"></i>
+            <span>SQL</span>
+          </div>
+          <div class="skill-item">
+            <i class="fab fa-git-alt"></i>
+            <span>Git</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <div class="section-content">
+      <h2>Projects</h2>
+      <div class="projects-container">
+        <!-- Project Cards -->
+        <div class="project-card">
+          <img src="sap-point-calculator.png" alt="SAP Point Calculator">
+          <h3>SAP Point Calculator</h3>
+          <p>A web application that allows students and staff to manage student activity points. This project won 1st
+            prize in a college-level 36-hour hackathon.</p>
+          <p><strong>Technologies Used:</strong> HTML, CSS, Bootstrap, JavaScript, Node.js, Express</p>
+          <a href="https://github.com/sanjai4334/SAP-Point-Calculator-Student-Portal" target="_blank" class="btn">View
+            on GitHub</a>
+        </div>
+        <div class="project-card">
+          <img src="facts-app.png" alt="Facts App">
+          <h3>Facts App</h3>
+          <p>A web application that provides facts about different engineering fields. This project was done as part of
+            a department-level hackathon.</p>
+          <p><strong>Technologies Used:</strong> Python, ReactJS</p>
+          <a href="https://github.com/sanjai4334/FactsApp" target="_blank" class="btn">View on GitHub</a>
+        </div>
+        <div class="project-card">
+          <h3>E-Learning Path Generator</h3>
+          <p>A machine learning-based application that provides users with a learning path for any subject they want to
+            learn. This project reached the finals of a state-level hackathon.</p>
+          <p><strong>Technologies Used:</strong> Python, Machine Learning</p>
+        </div>
+        <div class="project-card">
+          <h3>Data Download Duplication Alert System</h3>
+          <p>An application that alerts users if they try to download a file that already exists in the system or on the
+            network. Submitted for the Smart India Hackathon.</p>
+          <p><strong>Technologies Used:</strong> Python, JavaScript</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements Section -->
+  <section id="achievements" class="section">
+    <div class="section-content">
+      <h2>Achievements</h2>
+      <ul class="achievements-list">
+        <li><strong>1st Prize</strong> in the College-Level 36-Hour Hackathon at Kongu Engineering College for the
+          project <em>SAP Point Calculator</em>.</li>
+        <li><strong>Finalist</strong> in the State-Level Hackathon by GUVI and TNCPL for the project <em>E-Learning
+            Path Generator</em>.</li>
+        <li><strong>3rd Prize</strong> in the College-Level Web Designing Contest at Kongu Engineering College.</li>
+        <li><strong>3rd Prize</strong> for Idea Presentation at the Department-Level Ideathon at Kongu Engineering
+          College for the project <em>Tour Eaze</em> (a travel and tourism-based site).</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="section-content">
+      <h2>Contact</h2>
+      <form action="" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <p>Email: <a href="mailto:sanjais.22it@kongu.edu">sanjais.22it@kongu.edu</a></p>
+      <div class="social-icons">
+        <a href="https://github.com/sanjai4334" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://linkedin.com/in/sanjai4334" target="_blank">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+      <p class="copyright">&copy; 2023 Sanjai Somasundaram. All rights reserved.</p>
+    </div>
+  </footer>  
+
+  <script>
+    // JavaScript for sticky navbar
+    window.onscroll = function () { stickyNavbar() };
+
+    var navbar = document.querySelector(".navbar");
+    var sticky = navbar.offsetTop;
+
+    function stickyNavbar() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+    window.onscroll = function () {
+      stickyNavbar();
+      highlightNavbar();
+    };
+
+    var navbar = document.querySelector(".navbar");
+    var sticky = navbar.offsetTop;
+
+    function stickyNavbar() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+
+    function highlightNavbar() {
+      var sections = document.querySelectorAll(".section");
+      var navLinks = document.querySelectorAll(".nav-links a");
+
+      sections.forEach((section, index) => {
+        var top = section.offsetTop - 100;
+        var bottom = top + section.offsetHeight;
+
+        if (window.pageYOffset >= top && window.pageYOffset < bottom) {
+          navLinks.forEach(link => link.classList.remove('active'));
+          navLinks[index].classList.add('active');
+        }
+      });
+    }
+
+    // Call the function on page load
+    highlightNavbar();
+  </script>
+
+</body>
+
+</html>
